@@ -177,6 +177,36 @@
     <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\A_Star_Shortest_Path.c">
       <Filter>Non_Organized</Filter>
     </ClCompile>
+    <ClCompile Include="Ignored codes\Edmonds_Karp_Maximum_Flow.c">
+      <Filter>Ignored</Filter>
+    </ClCompile>
+    <ClCompile Include="Ignored codes\Finite_Automa_String_Matching.c">
+      <Filter>Ignored</Filter>
+    </ClCompile>
+    <ClCompile Include="Ignored codes\Floyd_Warshall_All_Pairs_Shortest_Paths.c">
+      <Filter>Ignored</Filter>
+    </ClCompile>
+    <ClCompile Include="Ignored codes\Gale_Shapley_Stable_Matching.c">
+      <Filter>Ignored</Filter>
+    </ClCompile>
+    <ClCompile Include="Ignored codes\Hopcroft_Karp_Maximum_Bipartite.c">
+      <Filter>Ignored</Filter>
+    </ClCompile>
+    <ClCompile Include="Ignored codes\Hungarian_Maximum_Weight.c">
+      <Filter>Ignored</Filter>
+    </ClCompile>
+    <ClCompile Include="Ignored codes\Johnson_All_Pairs_Shortest_Paths.c">
+      <Filter>Ignored</Filter>
+    </ClCompile>
+    <ClCompile Include="Ignored codes\Rabin_Karp_String_Matching.c">
+      <Filter>Ignored</Filter>
+    </ClCompile>
+    <ClCompile Include="Ignored codes\Shortest_Path_Faster_Algorithm.c">
+      <Filter>Ignored</Filter>
+    </ClCompile>
+    <ClCompile Include="Ignored codes\Text_Pattern_Matching_with_DC3_SkewAlgorithm.c">
+      <Filter>Ignored</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
