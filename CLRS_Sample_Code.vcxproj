@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{2b1c1159-f465-4726-9bae-fede9190d6e1}</ProjectGuid>
+    <RootNamespace>CLRSSampleCode</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.c" />
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Bucket_Sort.c" />
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Circular_Doubly_LinkedList.c" />
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Counting_Sort.c" />
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Direct_Address_Table.c" />
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Doubly_LinkedList.c" />
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Hash_Table.c" />
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Insertion_Sort.c" />
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\LSD_Radix_Sort.c" />
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Matrix_Multiply_Recursive.c" />
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Max_Heap_Sort.c" />
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Merge_Sort.c" />
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Min_Heap_Sort.c" />
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\MSD_Radix_Sort.c" />
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Priority_Queue_Max_Heap.c" />
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Queue.c" />
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Randomized_Quick_Sort.c" />
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Randomized_Select.c" />
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Selection_Of_Maximum_Minimum.c" />
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Selection_WorstCase_LinearTime.c" />
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Stack.c" />
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Strassen_Matrix_Multiply_Recursive.c" />
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Three_Way_Randomized_Quick_Sort.c" />
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\AVL_Tree.c" />
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\A_Star_Shortest_Path.c" />
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Bellman_Ford.c" />
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\BFS.c" />
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Binary_Search_Tree.c" />
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\DFS.c" />
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Dijksgtra_Shortest_Path.c" />
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\DisjointSet_Forest.c" />
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Dynamic_Order_Statistic.c" />
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Faster_All_Pairs_Shortest_Paths.c" />
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Greedy_Activity_Selector.c" />
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Huffman_Code.c" />
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Interval_Tree.c" />
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\KMP_String_Matching.c" />
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\LinkedList_DisjointSet.c" />
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Longest_Common_Prefix_with_Suffix_Array.c" />
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Longest_Common_Subsequence.c" />
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Matrix_Chain.c" />
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Minimum_Spanning_Tree_Kruskal.c" />
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Minimum_Spanning_Tree_Prim.c" />
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Open_Address_Table.c" />
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Optimal_Binary_Search_Tree.c" />
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Red_Black_Tree.c" />
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Rod_Cutting.c" />
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Search_LastMatchedNode_in_Trie.c" />
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Single_Source_Shorstest_Path_in_DAG.c" />
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Strongly_Connected_Component.c" />
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Topological_Sort.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

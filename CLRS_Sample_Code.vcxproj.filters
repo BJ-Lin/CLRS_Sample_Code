@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="來源檔案">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Organized">
+      <UniqueIdentifier>{f28de191-80c4-4b64-91a0-d259d30d6943}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Non_Organized">
+      <UniqueIdentifier>{100e69c6-6d1e-4588-9aaf-3b5da0d25247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ignored">
+      <UniqueIdentifier>{ba145a0f-b675-431c-9cc7-a1c376d19901}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Bucket_Sort.c">
+      <Filter>Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Circular_Doubly_LinkedList.c">
+      <Filter>Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Counting_Sort.c">
+      <Filter>Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Direct_Address_Table.c">
+      <Filter>Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Doubly_LinkedList.c">
+      <Filter>Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Hash_Table.c">
+      <Filter>Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Insertion_Sort.c">
+      <Filter>Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\LSD_Radix_Sort.c">
+      <Filter>Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Matrix_Multiply_Recursive.c">
+      <Filter>Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Max_Heap_Sort.c">
+      <Filter>Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Merge_Sort.c">
+      <Filter>Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Min_Heap_Sort.c">
+      <Filter>Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\MSD_Radix_Sort.c">
+      <Filter>Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Priority_Queue_Max_Heap.c">
+      <Filter>Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Queue.c">
+      <Filter>Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Randomized_Quick_Sort.c">
+      <Filter>Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Randomized_Select.c">
+      <Filter>Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Selection_Of_Maximum_Minimum.c">
+      <Filter>Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Selection_WorstCase_LinearTime.c">
+      <Filter>Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Stack.c">
+      <Filter>Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Strassen_Matrix_Multiply_Recursive.c">
+      <Filter>Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Three_Way_Randomized_Quick_Sort.c">
+      <Filter>Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\AVL_Tree.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Bellman_Ford.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\BFS.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Binary_Search_Tree.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\DFS.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Dijksgtra_Shortest_Path.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\DisjointSet_Forest.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Dynamic_Order_Statistic.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Faster_All_Pairs_Shortest_Paths.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Greedy_Activity_Selector.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Huffman_Code.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Interval_Tree.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\KMP_String_Matching.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\LinkedList_DisjointSet.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Longest_Common_Prefix_with_Suffix_Array.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Longest_Common_Subsequence.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Matrix_Chain.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Minimum_Spanning_Tree_Kruskal.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Minimum_Spanning_Tree_Prim.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Open_Address_Table.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Optimal_Binary_Search_Tree.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Red_Black_Tree.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Rod_Cutting.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Search_LastMatchedNode_in_Trie.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Single_Source_Shorstest_Path_in_DAG.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Strongly_Connected_Component.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Topological_Sort.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\A_Star_Shortest_Path.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
