@@ -795,14 +795,14 @@ struct AdjacencyInformation_Tag
 
 struct Vertex_Tag
 {
-	//BFS,Bellman-Ford, Dijkstra ....e.t.c computes the attributes for the graph
+	//BFS,Bellman-Ford, Dijkstra ....etc. computes the attributes for the graph
 	int Distance;
 
 	//DFS computes the attributes for the graph
 	int DiscoveryTime, FinishTime;
 
 
-	//Common attributes(EX: BFS,DFS,Prim's algorithm, Bellman-Ford , Dijkstra ..e.t.c )
+	//Common attributes(EX: BFS,DFS,Prim's algorithm, Bellman-Ford , Dijkstra ..etc. )
 	struct Vertex_Tag* Parent;
 
 
@@ -831,7 +831,7 @@ struct Vertex_Tag
 	//The weight of edge which is from minimum spanning subtree to this vertex for usage of Prim's algorithm.
 	int EdgeWeight;
 
-	//The index of vertex in priority-queue for usage of Prim's algorithm, Dijkstra, A_Star ..e.t.c. ; The index is from 4th, textbook p162, index = 1 ~ n
+	//The index of vertex in priority-queue for usage of Prim's algorithm, Dijkstra, A_Star ..etc. ; The index is from 4th, textbook p162, index = 1 ~ n
 	unsigned Index;
 
 	//The flag of vertex in priority-queue for judging the vertex if in queue, which is used in Prim's algorithm
@@ -1073,7 +1073,7 @@ struct Bipartite_Tag
 
 
 //The flag of graph object in DFS_AdditionalResult need to be initialized to 0. 
-//The reason is we use some functions such as DFS¡BBFS...e.t.c that some flags are on, to make functions produce unpredictable behavior. 
+//The reason is we use some functions such as DFS¡BBFS...etc. that some flags are on, to make functions produce unpredictable behavior. 
 struct Graph_Tag
 {
 	//Initialize the number of vertices and edges by Creating Graph function.
@@ -1094,7 +1094,7 @@ struct Graph_Tag
 	struct AllPairShortestPath_Result_Tag AllPairShortestPath_Result;
 
 
-	//Additional results such as topological sort,... e.t.c. and turning-on buttom are all for DFS relation. The additional space of DFS_AdditionalResult which are created by specifying function. 
+	//Additional results such as topological sort,... etc. and turning-on buttom are all for DFS relation. The additional space of DFS_AdditionalResult which are created by specifying function. 
 	struct DFS_AdditionalResult_Tag DFS_AdditionalResult;
 
 

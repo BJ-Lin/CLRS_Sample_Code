@@ -93,90 +93,6 @@
     <ClCompile Include="The codes in previvous chapters 1 to 11 has been organized\Three_Way_Randomized_Quick_Sort.c">
       <Filter>Organized</Filter>
     </ClCompile>
-    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\AVL_Tree.c">
-      <Filter>Non_Organized</Filter>
-    </ClCompile>
-    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Bellman_Ford.c">
-      <Filter>Non_Organized</Filter>
-    </ClCompile>
-    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\BFS.c">
-      <Filter>Non_Organized</Filter>
-    </ClCompile>
-    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Binary_Search_Tree.c">
-      <Filter>Non_Organized</Filter>
-    </ClCompile>
-    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\DFS.c">
-      <Filter>Non_Organized</Filter>
-    </ClCompile>
-    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Dijksgtra_Shortest_Path.c">
-      <Filter>Non_Organized</Filter>
-    </ClCompile>
-    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\DisjointSet_Forest.c">
-      <Filter>Non_Organized</Filter>
-    </ClCompile>
-    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Dynamic_Order_Statistic.c">
-      <Filter>Non_Organized</Filter>
-    </ClCompile>
-    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Faster_All_Pairs_Shortest_Paths.c">
-      <Filter>Non_Organized</Filter>
-    </ClCompile>
-    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Greedy_Activity_Selector.c">
-      <Filter>Non_Organized</Filter>
-    </ClCompile>
-    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Huffman_Code.c">
-      <Filter>Non_Organized</Filter>
-    </ClCompile>
-    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Interval_Tree.c">
-      <Filter>Non_Organized</Filter>
-    </ClCompile>
-    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\KMP_String_Matching.c">
-      <Filter>Non_Organized</Filter>
-    </ClCompile>
-    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\LinkedList_DisjointSet.c">
-      <Filter>Non_Organized</Filter>
-    </ClCompile>
-    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Longest_Common_Prefix_with_Suffix_Array.c">
-      <Filter>Non_Organized</Filter>
-    </ClCompile>
-    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Longest_Common_Subsequence.c">
-      <Filter>Non_Organized</Filter>
-    </ClCompile>
-    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Matrix_Chain.c">
-      <Filter>Non_Organized</Filter>
-    </ClCompile>
-    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Minimum_Spanning_Tree_Kruskal.c">
-      <Filter>Non_Organized</Filter>
-    </ClCompile>
-    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Minimum_Spanning_Tree_Prim.c">
-      <Filter>Non_Organized</Filter>
-    </ClCompile>
-    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Open_Address_Table.c">
-      <Filter>Non_Organized</Filter>
-    </ClCompile>
-    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Optimal_Binary_Search_Tree.c">
-      <Filter>Non_Organized</Filter>
-    </ClCompile>
-    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Red_Black_Tree.c">
-      <Filter>Non_Organized</Filter>
-    </ClCompile>
-    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Rod_Cutting.c">
-      <Filter>Non_Organized</Filter>
-    </ClCompile>
-    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Search_LastMatchedNode_in_Trie.c">
-      <Filter>Non_Organized</Filter>
-    </ClCompile>
-    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Single_Source_Shorstest_Path_in_DAG.c">
-      <Filter>Non_Organized</Filter>
-    </ClCompile>
-    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Strongly_Connected_Component.c">
-      <Filter>Non_Organized</Filter>
-    </ClCompile>
-    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\Topological_Sort.c">
-      <Filter>Non_Organized</Filter>
-    </ClCompile>
-    <ClCompile Include="The codes in previvous chapters 11 to 25 has not been organized\A_Star_Shortest_Path.c">
-      <Filter>Non_Organized</Filter>
-    </ClCompile>
     <ClCompile Include="Ignored codes\Edmonds_Karp_Maximum_Flow.c">
       <Filter>Ignored</Filter>
     </ClCompile>
@@ -206,6 +122,90 @@
     </ClCompile>
     <ClCompile Include="Ignored codes\Text_Pattern_Matching_with_DC3_SkewAlgorithm.c">
       <Filter>Ignored</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in later chapters 11 to 25 and 32 has not been organized\A_Star_Shortest_Path.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in later chapters 11 to 25 and 32 has not been organized\AVL_Tree.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in later chapters 11 to 25 and 32 has not been organized\Bellman_Ford.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in later chapters 11 to 25 and 32 has not been organized\BFS.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in later chapters 11 to 25 and 32 has not been organized\Binary_Search_Tree.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in later chapters 11 to 25 and 32 has not been organized\DFS.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in later chapters 11 to 25 and 32 has not been organized\Dijksgtra_Shortest_Path.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in later chapters 11 to 25 and 32 has not been organized\DisjointSet_Forest.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in later chapters 11 to 25 and 32 has not been organized\Dynamic_Order_Statistic.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in later chapters 11 to 25 and 32 has not been organized\Faster_All_Pairs_Shortest_Paths.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in later chapters 11 to 25 and 32 has not been organized\Greedy_Activity_Selector.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in later chapters 11 to 25 and 32 has not been organized\Huffman_Code.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in later chapters 11 to 25 and 32 has not been organized\Interval_Tree.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in later chapters 11 to 25 and 32 has not been organized\KMP_String_Matching.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in later chapters 11 to 25 and 32 has not been organized\LinkedList_DisjointSet.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in later chapters 11 to 25 and 32 has not been organized\Longest_Common_Prefix_with_Suffix_Array.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in later chapters 11 to 25 and 32 has not been organized\Longest_Common_Subsequence.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in later chapters 11 to 25 and 32 has not been organized\Matrix_Chain.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in later chapters 11 to 25 and 32 has not been organized\Minimum_Spanning_Tree_Kruskal.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in later chapters 11 to 25 and 32 has not been organized\Minimum_Spanning_Tree_Prim.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in later chapters 11 to 25 and 32 has not been organized\Open_Address_Table.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in later chapters 11 to 25 and 32 has not been organized\Optimal_Binary_Search_Tree.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in later chapters 11 to 25 and 32 has not been organized\Red_Black_Tree.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in later chapters 11 to 25 and 32 has not been organized\Rod_Cutting.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in later chapters 11 to 25 and 32 has not been organized\Search_LastMatchedNode_in_Trie.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in later chapters 11 to 25 and 32 has not been organized\Single_Source_Shorstest_Path_in_DAG.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in later chapters 11 to 25 and 32 has not been organized\Strongly_Connected_Component.c">
+      <Filter>Non_Organized</Filter>
+    </ClCompile>
+    <ClCompile Include="The codes in later chapters 11 to 25 and 32 has not been organized\Topological_Sort.c">
+      <Filter>Non_Organized</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
